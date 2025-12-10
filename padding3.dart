@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
           title: const Text(" Widget Tutorials"),
         ),
         body: const Padding(
-          padding:EdgeInsetsGeometry.symmetric(horizontal: 100) ,
+          padding:EdgeInsetsGeometry.only(top: 100,bottom: 100,right: 100,left: 100) ,
           child: Text("padding widget"),
    
         ),
