@@ -15,10 +15,8 @@ class MyApp extends StatelessWidget {
           centerTitle:false,
           title: const Text ("widget tutorials"),
         ),
-        body:Image.asset("assets/photo-1533450718592-29d45635f0a9.jpg",
+        body:Image.network("",
         height: 200,
-        width: 200,
-
         errorBuilder: (context,_,__){
 return Container(
   color: Colors.amber,
@@ -32,4 +30,3 @@ return Container(
         )
       
         ));}}
-      
