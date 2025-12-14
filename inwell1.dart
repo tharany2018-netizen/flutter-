@@ -19,12 +19,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: InkWell(
-            onLongPress: (){
-              print("i am long press now");
-            },
-            onDoubleTap: () {
-            print("i amm clicking two time ");}
-,          onTap:() {
+           onTap:() {
             print("i am clicking on time");
           },           
             child: Text("press here",style: TextStyle(fontSize: 50),),
