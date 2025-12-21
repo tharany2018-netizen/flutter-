@@ -27,16 +27,16 @@ class MyApp extends StatelessWidget {
             ),
           
            Container(
+              color: const Color.fromARGB(255, 255, 128, 89),
+              height: 100,
+              child: const Center(child: Text("tharany"),),
+          ),
+          Container(
               color: const Color.fromARGB(255, 89, 180, 255),
               height: 100,
               child: const Center(child: Text("bava"),),
                
         ),
-          Container(
-              color: const Color.fromARGB(255, 255, 128, 89),
-              height: 100,
-              child: const Center(child: Text("tharany"),),
-          ),
 
         
           ],   
